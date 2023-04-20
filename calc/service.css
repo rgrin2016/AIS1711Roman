@@ -1,0 +1,31 @@
+body {
+	background-color: #222;
+	color: #fff;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	background-color: #444;
+}
+
+header img {
+	height: 5rem;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 0.5rem;
+}
+
+section {
+	padding: 2rem;
+}

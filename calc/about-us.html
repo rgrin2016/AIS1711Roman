@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Futuristic Site</title>
+	<link rel="stylesheet" href="/css/main.css">
+	<script src="js/jquery-2.2.3.min.js"></script>
+	
+</head>
+<body>
+	<div class="bubble"></div>
+	<div class="bubble1"></div>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="about-us.html">О нас</a>
+					<ul>
+						<li><a href="#">Команда</a></li>
+						<li><a href="#">История</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Услуги</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+		</nav>
+		<h1>Добро пожаловать на футуристический сайт</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ipsum at magna sollicitudin volutpat. Nam eget enim id risus dignissim finibus.</p>
+		<div class="container">
+      <div class="profile">
+        <img src="nymb5hcpsx8.jpg" alt="Фото профиля">
+        <h1>Роман Гринь</h1>
+        <p>Номер телефона (WhatsApp/Viber) - 8 964 825 23 53</p>
+				<p>ВК - <a href="https://vk.com/my_legends_die">https://vk.com/my_legends_die</a></p>
+				<p>Телеграм - RomanGrin_eao</p>
+				<p>Дискорд - Slasher#8320</p>
+      </div>
+    </div>
+	</header>
+	<main>
+		<section>
+			<h2>About Us</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ipsum at magna sollicitudin volutpat. Nam eget enim id risus dignissim finibus.</p>
+		</section>
+		<section>
+			<h2>Our Services</h2>
+			<ul>
+				<li>Service 1</li>
+				<li>Service 2</li>
+				<li>Service 3</li>
+				<li>Service 4</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Contact Us</h2>
+			<form id="contact-form" method="post" action="send-email.php" enctype="multipart/form-data">
+				<label for="name">Имя:</label>
+				<input type="text" id="name" name="name" required placeholder="Ваше имя"><br><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required placeholder="Ваш Email"><br><br>
+				<label for="message">Сообщение:</label>
+				<textarea id="message" name="message" required placeholder="Ваше сообщение"></textarea><br><br>
+				<label for="attachment">Прикрепить файл:</label><br><br>
+    		<input type="file" id="attachment" name="attachment"><br><br>
+				<button type="submit">Отправить</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Futuristic Site. All rights reserved.</p>
+	</footer>
+	<script src="script.js"></script>
+	<script src="script1.js"></script>
+	<script src="script-send.js"></script>
+	<script src="nav.js"></script>
+</body>
+</html>
